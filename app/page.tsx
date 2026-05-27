@@ -462,9 +462,22 @@ export default function Home() {
 
           </div>
           
-          <div className="max-w-7xl mx-auto mt-12 pt-8 border-t border-gray-100 text-center text-xs text-gray-400 font-light">
-            © {new Date().getFullYear()} Heliconia Hotel Batu. All rights reserved.
-          </div>
+          <div className="text-center text-sm text-gray-500 mt-8">
+  <p>
+    &copy; {new Date().getFullYear()} Heliconia Hotel Batu. All rights reserved.
+  </p>
+  <p className="mt-2">
+    Developed by{' '}
+    <a 
+      href="https://askaraindonesia.my.id" 
+      target="_blank" 
+      rel="noopener noreferrer"
+      className="font-medium hover:text-gray-300 hover:underline transition-colors"
+    >
+      Askara Indonesia
+    </a>
+  </p>
+</div>
         </FadeInScroll>
       </footer>
 
